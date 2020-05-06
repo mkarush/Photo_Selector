@@ -1,0 +1,16 @@
+
+<%- include('partials/header'); -%>
+<link rel="stylesheet" href="/public/css/style.css">
+<form action="/picture" method= "POST"> 
+<div class="container-fluid">
+<div class="form-group">
+    <label for="picture" class = "select">Select Picture</label>
+    <select class="form-control" name="picture"> 
+      <option>Cat</option>
+      <option>Dog</option>
+      <option>Cat and Dog</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form>

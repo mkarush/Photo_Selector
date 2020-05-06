@@ -1,0 +1,17 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "login and save values",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karush",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "httpss": "^1.0.0",
+    "mongoose": "^5.9.10"
+  }
+}
